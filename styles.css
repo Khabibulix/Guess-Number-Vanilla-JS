@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(red, purple, pink);
+    background-repeat: no-repeat; 
+    height: 100vh;
+    
+}
+
+#container{
+    border: 1px solid black;
+    height: 580px;
+    width: 350px;
+    position: absolute;
+    right: 30%;
+    background-color: papayawhip;
+    
+}
+
+#inp{s
+    padding: 1px;
+    margin: 15px 5px 5px 10px;
+}
+
+.todostyle{
+
+    font-size: 1.3em;
+    margin-left: 15px;
+    color: black;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px){
+    #container{
+        position: absolute;
+        right: 40%;
+        background-color: papayawhip;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #container{
+        position: absolute;
+        right: 20%;
+        background-color: papayawhip;
+    }
+}
